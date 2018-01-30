@@ -1,15 +1,15 @@
-package guru.springframework.converters;
+package rs.springframework.converters;
 
 
-import guru.springframework.commands.CategoryCommand;
-import guru.springframework.domain.Category;
+import  rs.springframework.commands.CategoryCommand;
+import  rs.springframework.domain.Category;
 import lombok.Synchronized;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Component;
 
 /**
- * Created by jt on 6/21/17.
+ *  rs.springframework.
  */
 @Component
 public class CategoryCommandToCategory implements Converter<CategoryCommand, Category>{

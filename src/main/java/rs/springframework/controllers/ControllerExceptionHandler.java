@@ -1,4 +1,4 @@
-package guru.springframework.controllers;
+package rs.springframework.controllers;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
- * Created by jt on 7/14/17.
+ *  rs.springframework on 7/14/17.
  */
 @Slf4j
 @ControllerAdvice

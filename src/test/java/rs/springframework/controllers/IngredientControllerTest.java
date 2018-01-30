@@ -1,10 +1,10 @@
-package guru.springframework.controllers;
+package rs.springframework.controllers;
 
-import guru.springframework.commands.IngredientCommand;
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.services.IngredientService;
-import guru.springframework.services.RecipeService;
-import guru.springframework.services.UnitOfMeasureService;
+import  rs.springframework.commands.IngredientCommand;
+import  rs.springframework.commands.RecipeCommand;
+import  rs.springframework.services.IngredientService;
+import  rs.springframework.services.RecipeService;
+import  rs.springframework.services.UnitOfMeasureService;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;

@@ -1,8 +1,8 @@
-package guru.springframework.controllers;
+package rs.springframework.controllers;
 
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.services.ImageService;
-import guru.springframework.services.RecipeService;
+import  rs.springframework.commands.RecipeCommand;
+import  rs.springframework.services.ImageService;
+import  rs.springframework.services.RecipeService;
 import org.apache.tomcat.util.http.fileupload.IOUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -18,7 +18,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
- * Created by jt on 7/3/17.
+ *  rs.springframework on 7/3/17.
  */
 @Controller
 public class ImageController {

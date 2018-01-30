@@ -1,14 +1,14 @@
-package guru.springframework.converters;
+package rs.springframework.converters;
 
-import guru.springframework.commands.NotesCommand;
-import guru.springframework.domain.Notes;
+import  rs.springframework.commands.NotesCommand;
+import  rs.springframework.domain.Notes;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 /**
- * Created by jt on 6/21/17.
+ *  rs.springframework.
  */
 public class NotesToNotesCommandTest {
 

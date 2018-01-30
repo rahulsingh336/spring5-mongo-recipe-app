@@ -1,9 +1,9 @@
-package guru.springframework.bootstrap;
+package rs.springframework.bootstrap;
 
-import guru.springframework.domain.*;
-import guru.springframework.repositories.CategoryRepository;
-import guru.springframework.repositories.RecipeRepository;
-import guru.springframework.repositories.UnitOfMeasureRepository;
+import  rs.springframework.domain.*;
+import  rs.springframework.repositories.CategoryRepository;
+import  rs.springframework.repositories.RecipeRepository;
+import  rs.springframework.repositories.UnitOfMeasureRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * Created by jt on 6/13/17.
+ *  rs.springframework on 6/13/17.
  */
 @Slf4j
 @Component

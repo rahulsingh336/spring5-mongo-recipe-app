@@ -1,11 +1,11 @@
-package guru.springframework.domain;
+package rs.springframework.domain;
 
 import lombok.Getter;
 import lombok.Setter;
 
 
 /**
- * Created by jt on 6/13/17.
+ *  rs.springframework
  */
 @Getter
 @Setter

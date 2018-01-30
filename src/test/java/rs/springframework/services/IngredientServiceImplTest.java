@@ -1,14 +1,14 @@
-package guru.springframework.services;
+package rs.springframework.services;
 
-import guru.springframework.commands.IngredientCommand;
-import guru.springframework.converters.IngredientCommandToIngredient;
-import guru.springframework.converters.IngredientToIngredientCommand;
-import guru.springframework.converters.UnitOfMeasureCommandToUnitOfMeasure;
-import guru.springframework.converters.UnitOfMeasureToUnitOfMeasureCommand;
-import guru.springframework.domain.Ingredient;
-import guru.springframework.domain.Recipe;
-import guru.springframework.repositories.RecipeRepository;
-import guru.springframework.repositories.UnitOfMeasureRepository;
+import  rs.springframework.commands.IngredientCommand;
+import  rs.springframework.converters.IngredientCommandToIngredient;
+import  rs.springframework.converters.IngredientToIngredientCommand;
+import  rs.springframework.converters.UnitOfMeasureCommandToUnitOfMeasure;
+import  rs.springframework.converters.UnitOfMeasureToUnitOfMeasureCommand;
+import  rs.springframework.domain.Ingredient;
+import  rs.springframework.domain.Recipe;
+import  rs.springframework.repositories.RecipeRepository;
+import  rs.springframework.repositories.UnitOfMeasureRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
@@ -116,7 +116,7 @@ public class IngredientServiceImplTest {
         Ingredient ingredient = new Ingredient();
         ingredient.setId("3");
         recipe.addIngredient(ingredient);
-        ingredient.setRecipe(recipe);
+        //ingredient.setRecipe(recipe);
         Optional<Recipe> recipeOptional = Optional.of(recipe);
 
         when(recipeRepository.findById(anyString())).thenReturn(recipeOptional);

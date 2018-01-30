@@ -1,4 +1,4 @@
-package guru.springframework.domain;
+package rs.springframework.domain;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -6,7 +6,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 /**
- * Created by jt on 6/17/17.
+ *  rs.springframework
  */
 public class CategoryTest {
 

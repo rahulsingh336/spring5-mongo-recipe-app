@@ -1,9 +1,9 @@
-package guru.springframework.services;
+package  rs.springframework.services;
 
-import guru.springframework.commands.IngredientCommand;
+import  rs.springframework.commands.IngredientCommand;
 
 /**
- * Created by jt on 6/27/17.
+ *  rs.springframework on 6/27/17.
  */
 public interface IngredientService {
 

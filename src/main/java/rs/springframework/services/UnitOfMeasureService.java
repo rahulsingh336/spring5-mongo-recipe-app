@@ -1,11 +1,11 @@
-package guru.springframework.services;
+package rs.springframework.services;
 
-import guru.springframework.commands.UnitOfMeasureCommand;
+import  rs.springframework.commands.UnitOfMeasureCommand;
 
 import java.util.Set;
 
 /**
- * Created by jt on 6/28/17.
+ *  rs.springframework on 6/28/17.
  */
 public interface UnitOfMeasureService {
 

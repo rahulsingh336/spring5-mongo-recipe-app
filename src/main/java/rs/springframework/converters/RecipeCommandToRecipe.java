@@ -1,14 +1,14 @@
-package guru.springframework.converters;
+package rs.springframework.converters;
 
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.domain.Recipe;
+import  rs.springframework.commands.RecipeCommand;
+import  rs.springframework.domain.Recipe;
 import lombok.Synchronized;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Component;
 
 /**
- * Created by jt on 6/21/17.
+ *  rs.springframework.
  */
 @Component
 public class RecipeCommandToRecipe implements Converter<RecipeCommand, Recipe> {

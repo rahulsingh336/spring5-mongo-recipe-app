@@ -1,14 +1,14 @@
-package guru.springframework.converters;
+package rs.springframework.converters;
 
-import guru.springframework.commands.NotesCommand;
-import guru.springframework.domain.Notes;
+import  rs.springframework.commands.NotesCommand;
+import  rs.springframework.domain.Notes;
 import lombok.Synchronized;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Component;
 
 /**
- * Created by jt on 6/21/17.
+ *  rs.springframework.
  */
 @Component
 public class NotesToNotesCommand implements Converter<Notes, NotesCommand>{

@@ -1,12 +1,12 @@
-package guru.springframework.services;
+package rs.springframework.services;
 
 
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.converters.RecipeCommandToRecipe;
-import guru.springframework.converters.RecipeToRecipeCommand;
-import guru.springframework.domain.Recipe;
-import guru.springframework.exceptions.NotFoundException;
-import guru.springframework.repositories.RecipeRepository;
+import  rs.springframework.commands.RecipeCommand;
+import  rs.springframework.converters.RecipeCommandToRecipe;
+import  rs.springframework.converters.RecipeToRecipeCommand;
+import  rs.springframework.domain.Recipe;
+import  rs.springframework.exceptions.NotFoundException;
+import  rs.springframework.repositories.RecipeRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
@@ -21,7 +21,7 @@ import static org.junit.Assert.assertNotNull;
 import static org.mockito.Mockito.*;
 
 /**
- * Created by jt on 6/17/17.
+ *  rs.springframework
  */
 public class RecipeServiceImplTest {
 

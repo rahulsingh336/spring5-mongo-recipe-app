@@ -1,7 +1,7 @@
-package guru.springframework.controllers;
+package rs.springframework.controllers;
 
-import guru.springframework.domain.Recipe;
-import guru.springframework.services.RecipeService;
+import  rs.springframework.domain.Recipe;
+import  rs.springframework.services.RecipeService;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;
@@ -21,7 +21,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
 
 /**
- * Created by jt on 6/17/17.
+ *  rs.springframework
  */
 public class IndexControllerTest {
 

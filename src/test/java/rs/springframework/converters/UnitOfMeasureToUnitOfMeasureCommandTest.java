@@ -1,14 +1,14 @@
-package guru.springframework.converters;
+package rs.springframework.converters;
 
-import guru.springframework.commands.UnitOfMeasureCommand;
-import guru.springframework.domain.UnitOfMeasure;
+import  rs.springframework.commands.UnitOfMeasureCommand;
+import  rs.springframework.domain.UnitOfMeasure;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 /**
- * Created by jt on 6/21/17.
+ *  rs.springframework.
  */
 public class UnitOfMeasureToUnitOfMeasureCommandTest {
 

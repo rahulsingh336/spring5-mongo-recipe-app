@@ -1,9 +1,9 @@
-package guru.springframework.services;
+package rs.springframework.services;
 
 import org.springframework.web.multipart.MultipartFile;
 
 /**
- * Created by jt on 7/3/17.
+ *  rs.springframework on 7/3/17.
  */
 public interface ImageService {
 

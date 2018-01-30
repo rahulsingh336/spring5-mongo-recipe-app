@@ -1,10 +1,10 @@
-package guru.springframework.services;
+package rs.springframework.services;
 
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.converters.RecipeCommandToRecipe;
-import guru.springframework.converters.RecipeToRecipeCommand;
-import guru.springframework.domain.Recipe;
-import guru.springframework.repositories.RecipeRepository;
+import  rs.springframework.commands.RecipeCommand;
+import  rs.springframework.converters.RecipeCommandToRecipe;
+import  rs.springframework.converters.RecipeToRecipeCommand;
+import  rs.springframework.domain.Recipe;
+import  rs.springframework.repositories.RecipeRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,9 +17,9 @@ import static org.junit.Assert.assertEquals;
 
 
 /**
- * Created by jt on 6/21/17.
+ *  rs.springframework.
  */
-@Ignore
+//@DataMongoTest
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class RecipeServiceIT {
@@ -38,7 +38,7 @@ public class RecipeServiceIT {
     @Autowired
     RecipeToRecipeCommand recipeToRecipeCommand;
 
-    @Transactional
+    //  @Transactional
     @Test
     public void testSaveOfDescription() throws Exception {
         //given

@@ -1,9 +1,9 @@
-package guru.springframework.controllers;
+package rs.springframework.controllers;
 
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.domain.Recipe;
-import guru.springframework.exceptions.NotFoundException;
-import guru.springframework.services.RecipeService;
+import  rs.springframework.commands.RecipeCommand;
+import  rs.springframework.domain.Recipe;
+import  rs.springframework.exceptions.NotFoundException;
+import  rs.springframework.services.RecipeService;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
@@ -20,7 +20,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 /**
- * Created by jt on 6/19/17.
+ *  rs.springframework on 6/19/17.
  */
 public class RecipeControllerTest {
 

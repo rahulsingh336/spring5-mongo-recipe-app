@@ -1,12 +1,12 @@
-package guru.springframework.services;
+package rs.springframework.services;
 
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.domain.Recipe;
+import  rs.springframework.commands.RecipeCommand;
+import  rs.springframework.domain.Recipe;
 
 import java.util.Set;
 
 /**
- * Created by jt on 6/13/17.
+ *  rs.springframework on 6/13/17.
  */
 public interface RecipeService {
 

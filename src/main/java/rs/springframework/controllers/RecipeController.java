@@ -1,8 +1,8 @@
-package guru.springframework.controllers;
+package rs.springframework.controllers;
 
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.exceptions.NotFoundException;
-import guru.springframework.services.RecipeService;
+import  rs.springframework.commands.RecipeCommand;
+import  rs.springframework.exceptions.NotFoundException;
+import  rs.springframework.services.RecipeService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
@@ -14,7 +14,7 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.validation.Valid;
 
 /**
- * Created by jt on 6/19/17.
+ *  rs.springframework on 6/19/17.
  */
 @Slf4j
 @Controller

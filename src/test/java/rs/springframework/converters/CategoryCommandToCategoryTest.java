@@ -1,7 +1,7 @@
-package guru.springframework.converters;
+package rs.springframework.converters;
 
-import guru.springframework.commands.CategoryCommand;
-import guru.springframework.domain.Category;
+import  rs.springframework.commands.CategoryCommand;
+import  rs.springframework.domain.Category;
 import org.junit.Before;
 import org.junit.Test;
 

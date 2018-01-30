@@ -1,9 +1,9 @@
-package guru.springframework.converters;
+package rs.springframework.converters;
 
-import guru.springframework.commands.IngredientCommand;
-import guru.springframework.domain.Ingredient;
-import guru.springframework.domain.Recipe;
-import guru.springframework.domain.UnitOfMeasure;
+import  rs.springframework.commands.IngredientCommand;
+import  rs.springframework.domain.Ingredient;
+import  rs.springframework.domain.Recipe;
+import  rs.springframework.domain.UnitOfMeasure;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -12,7 +12,7 @@ import java.math.BigDecimal;
 import static org.junit.Assert.*;
 
 /**
- * Created by jt on 6/21/17.
+ *  rs.springframework.
  */
 public class IngredientToIngredientCommandTest {
 
